@@ -2,7 +2,6 @@
 
 ![Copy of Copy of Copy of Copy of Fullstack Twitter Clone (1)](https://github.com/AntonioErdeljac/next13-ai-companion/assets/23248726/ef2913b1-eafe-4829-9018-f2ca5a7ba651)
 
-
 This is a repository for Build a SaaS AI Platform with Next.js 13, React, Tailwind, Prisma, Stripe | Full Tutorial 2023.
 
 [VIDEO TUTORIAL](https://www.youtube.com/watch?v=PjYWpd7xkaM)
@@ -28,9 +27,11 @@ Features:
 - How to reuse layouts
 - Folder structure in Next 13 App Router
 
+## Installation
+
 ### Prerequisites
 
-**Node version 18.x.x**
+- Node version 18.x.x
 
 ### Cloning the repository
 
@@ -45,7 +46,6 @@ npm i
 ```
 
 ### Setup .env file
-
 
 ```js
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
@@ -86,6 +86,7 @@ npx prisma db push
 ```
 
 Seed categories:
+
 ```shell
 node scripts/seed.ts
 ```
